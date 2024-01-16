@@ -1,0 +1,65 @@
+16/01/2024
+---------------
+java process cycle
+--------------------
+
+sample java hello world program
+-------------------------------
+1) We have to start java program with class keyword.
+2) each class have unieque class name
+3) we have to declare methods to define logic
+
+
+java sample code:
+
+class FirstExample{
+
+public static void main(String s[]){
+
+}
+}
+
+Java execution
+---------------
+
+-> javac  command--Java compiler,it call the compiler and scan the java extension file
+   if everthing is good then it will conver into .class file.
+   
+   java   -> runtime command , It read .class file(intermediate file) and convertes machine unterstand code and execute to give the output
+
+
+java installation
+------------------
+
+JDK -- Java development kit (JRE, compiler)-- comiler and running code
+JRE -- Java runtime environemnt  -- running code
+
+
+  --> organization level--> DEV environment -> UAT -> PROD
+  
+  
+  
+classname -> have start with Capital letter ex : Hello
+                                                 Transaction  
+												 HelloWorld
+												 TravelPayment
+												 
+
+methodname ->  has to start with small letters and secound word should               start	with capital letter
+
+
+
+MyClass referce -->  using new keywork with class consturctor  can allow         to create the object  and using same class type of refernce ca           can access the object .
+        
+               The use of object is, allow to run the funcitons and access variables.
+
+
+
+Constructor :  constructor define with classname and there is not return type for them. It help to run some logic whlile creating constructor.			   
+
+Assessment : 
+1)Create class name wiht your name and define two methods and run it.
+
+2) create the diffet class with two method and try to comunicate one method to other and run it.
+
+3) create class with constructor , methods and run it.

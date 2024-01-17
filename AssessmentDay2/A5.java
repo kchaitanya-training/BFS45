@@ -1,5 +1,10 @@
+/*
+ * Assessment 5
+ * define argument method and pass input and return value in the same class.
+ */
+
 public class A5 {
-    float sum (float numOne, float numTwo) {
+    float sum(float numOne, float numTwo) {
         return numOne + numTwo;
     }
 

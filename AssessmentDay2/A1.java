@@ -1,6 +1,9 @@
 /*
-* Assessment 1
-* */
+ * Assessment 1
+ * write program to define two methods with parameters , 
+ * one method should call to another method and execute 
+ * or call that method with object reference.
+ */
 
 public class A1 {
 

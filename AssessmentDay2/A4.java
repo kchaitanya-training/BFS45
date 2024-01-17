@@ -1,6 +1,8 @@
 /*
-* Assessment 4
-* */
+ * Assessment 4
+ * Write program to express overloading and override method 
+ * in between parent and child relation
+ */
 
 public class A4 {
     public static void main(String[] args) {

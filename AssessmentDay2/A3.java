@@ -1,6 +1,7 @@
 /*
-* Assessment 3
-* */
+ * Assessment 3
+ * Encapsulation : Pls wirte a program to discribe a house
+ * */
 
 public class A3 {
     public static void main(String[] args) {

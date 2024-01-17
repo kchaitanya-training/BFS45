@@ -1,11 +1,13 @@
 /*
-* Assessment 2
-* */
+ * Assessment 2
+ * write a program to consturce argument constructor and 
+ * creating the object and define instance variables.
+ * */
 
 public class A2 {
     String name;
 
-    A2 (String username) {
+    A2(String username) {
         name = username;
     }
 

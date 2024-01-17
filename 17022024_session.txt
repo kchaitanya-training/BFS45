@@ -1,0 +1,102 @@
+->Variables,object,constructor,methods
+-> OOPS
+
+--> 17012024 <--
+
+Data types:
+-------------
+Number,decimal,character,booleans,word
+int ,float,char,boolean,String
+
+Number :
+---------
+
+int --> int a=20;
+
+Decimal
+-------
+float --> float b=23.03;
+
+
+characte
+-----------
+
+a -z  or A-Z or 0-9 as charcter
+
+ex : char c='a'; char c1='H'; char c2='8'
+-------------
+Boolean
+---------
+true or false
+
+------------
+
+"Hello, How are you";
+
+String : ex : String s="hi,I'm java"
+
+
+------------------------Data types Range-------------
+
+Number
+------
+byte	1 byte	Stores whole numbers from -128 to 127
+short	2 bytes	Stores whole numbers from -32,768 to 32,767
+int -2147483648 to 2147483647 // 4 bytes
+
+long --> -9223372036854775808 to 9223372036854775807
+
+
+---------------------float ---------------
+
+float f =26.34f;-- 4 byts
+double f=;//4.94065645841246544e-324 to 1.79769313486231570e+308
+
+------------------------------char-------------
+
+char - 2 bytes
+
+boolea -- 1 byte --> false-0 or true - 1
+
+
+-----------> Object <------------
+
+Object is state which has some data (instance variables,return type values).
+
+-----------> constructor <--------
+
+every class have it's own default contructor, we can use it to initialize or load some resource at the time object creation.
+
+It should not return type.
+
+
+
+------ parameters/arguments
+
+-----------------------> OOPS <----------------------
+
+C++/CPP, java,dot net,salesforce,tibco,sap ,
+c,cobol --> these are not object oriented programs.... these are structured oriented programing
+
+
+OOP --> Object oriented programing
+
+Encapsulation  - member variables,member methods should in side of the class.
+
+Ex : House
+
+polymorphisam  - multiple methods with same method name and diffent arguments
+
+inhertance    -- through inheritance, the child class can get all parent propertes.. this supports multilevel and single inherince.
+
+
+abstraction -- hiding the behaviour 
+
+
+polymorphisam/inheritance  :  overloading(compiletime polymorphisam) and overriding(runtime polymorphisam)
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+--> Git
+
+ git clone <git remote url which end with projectname.git>  --> it close/download the remote code from master branch
+
+git checkout <branch-name>   --> it switch to specific branch
+
+git add <. or filename>  --> it will add into cache
+
+git status -> it provide the stauts of file
+
+
+git reset --> the file will be come back to your woksspace
+git restore --staged A.java
+
+
+git commit -m "comments"  --> it move staging
+
+
+git push ---> it will move your file into Remote.

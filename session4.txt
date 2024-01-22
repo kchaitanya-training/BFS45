@@ -1,0 +1,35 @@
+global or instance variables;
+
+this  - this keyword referes current object
+
+super   - it refers super contructor
+ 
+ 
+ 
+equals vs ==
+
+== is always refers object address to compare in String
+equals is always refer to object content.
+
+
+class types(interface,abstract)
+interface -> it has all are unimplmentated which treated as rules to the child classes
+
+
+abstract class -> it has implmented and unimplmentated methods.
+ ex: we have to keep all common fuction in abstract to child class.
+  we can instantiate the abstract class .
+
+Loose couping and tight coupling,
+
+
+package---> to keep all related java files/classes into one group .
+
+
+Object class -> every class will be extended by object class by default
+
+array
+
+loops
+
+

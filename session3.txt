@@ -1,0 +1,57 @@
+session 3
+----------
+deubug--? How to idenfify issues while doing development /support projects.
+
+Jar --> java archive
+
+core java --> advanced java (web application)
+war -- web archive 
+
+
+
+Stirng   is java predefined java class ---> it allows  to defind a word,a statment,bulk data information.
+
+--> String pool
+
+-->  string with new keyword --> new String();
+
+-> append operator for String --> +, concat(); 
+-->  String is a immutable class : the state objec of string never be chnges once defined.
+
+
+--> charAt,toUppercase,toLowerCaase
+--> +,-,*,%/,<,>,++,--
+
+//--=>a=a-1,++--> a=a+1;
+-> + operator for float and int --> addition
+
+conitional operators,loop
+
+<,>,!,==,
+
+if(condition is satisfied){
+//allow
+}
+
+
+if(condition is satisfied){
+//allow either
+}else{
+// or not
+}
+
+if(conditon is satisified){
+}else if(conditon is satisfied){
+}else if(condition is satisfield){
+
+}else{
+}
+
+switch(condtion){
+case : 1 ---
+case : 2--
+default: default
+
+}
+
+

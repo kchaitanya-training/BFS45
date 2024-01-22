@@ -1,0 +1,34 @@
+------------------
+==>Object class
+
+ pakage -->  to define a list of class of one group we use package
+            package com.test;//we define packge on top of class;
+ import ->  if want to import other  of class pacakge we should define import with package name of other class
+  
+   we have to define import in between package  keyword and class
+ 
+ 
+==>java. lang.* ==> it is the default package for every class.
+
+===>access specifiers
+
+default,public
+
+
+default ==> It allows to access inside of package not outside
+public ==> it allows to give access to out side packge 
+
+protected  => it allows only inhertiance in same or other packages.
+
+private   ==> It completely stop provide the acccess to same or other package clases.
+
+the default acces specifier for methods in interface  are public
+
+
+==>static keyword
+
+==> Arrays  ==> 
+
+
+
+----------------

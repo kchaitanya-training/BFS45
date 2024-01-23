@@ -1,0 +1,46 @@
+session6:
+
+Parent refernce with children instance
+
+--> we can assign java child object to parent referecne
+ and in this snenario, it allows call overrided methods and it parents methods.
+ 
+ 
+ --> we can do casting from Parent to Childer
+ --> we can do casting from childer to Parent ex  Parent p=(Parent)c
+
+Object array  ----> 
+
+Wrapper classes
+
+int --> Integer
+long --> Long
+float --> Float
+Decimal --> Decimal
+boolean --> Boolean
+char --> Character
+
+Autoboxing -->  from Java 5, It started to convert from primative to wrapper object 
+
+
+ERROR --> System may generate errors(issues)
+Exception -> Program may generates errors called Exception
+
+Exception
+
+Collections
+
+Threading
+
+StringBuffer,String builder
+
+File system
+
+IO system
+
+JDBC
+
+java 8 - stream,function interface
+
+
+

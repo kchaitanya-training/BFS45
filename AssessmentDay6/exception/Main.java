@@ -10,6 +10,13 @@ public class Main {
             System.out.println(ex);
         }
 
+        String word = null;
+        try {
+            System.out.println(word.length());
+        } catch (NullPointerException e) {
+            System.out.println(e);
+        }
+
         try {
             throw new CustomException("Custom exception");
         } catch (CustomException e) {

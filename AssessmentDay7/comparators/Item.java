@@ -1,7 +1,5 @@
 package AssessmentDay7.comparators;
 
-import java.util.*;
-
 public class Item implements Comparable<Item> {
     Integer itemKey;
     String itemValue;

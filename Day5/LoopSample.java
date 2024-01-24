@@ -10,9 +10,7 @@ public class LoopSample {
             num++;
             System.out.println(num);
         }
-
         System.out.println("*************************");
-
         //while Loop
         int w = 15;
         while(w != 0)

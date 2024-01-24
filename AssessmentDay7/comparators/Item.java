@@ -2,7 +2,7 @@ package AssessmentDay7.comparators;
 
 import java.util.*;
 
-public class Item implements Comparable {
+public class Item implements Comparable<Item> {
     Integer itemKey;
     String itemValue;
 
@@ -25,7 +25,7 @@ public class Item implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Item o) {
         // DESCENDING ORDER
         return this.getItemKey() > ((Item) o).getItemKey() ? -1 : this.getItemKey() == ((Item) o).getItemKey() ? 0 : 1;
     }

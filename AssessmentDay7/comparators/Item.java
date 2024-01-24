@@ -25,6 +25,8 @@ public class Item implements Comparable<Item> {
     @Override
     public int compareTo(Item o) {
         // DESCENDING ORDER
-        return this.getItemKey() > o.getItemKey() ? -1 : this.getItemKey() == o.getItemKey() ? 0 : 1;
+        return this.getItemKey() > o.getItemKey() ? -1
+                : this.getItemKey() == o.getItemKey() ? 0
+                        : 1;
     }
 }

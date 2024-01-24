@@ -25,5 +25,16 @@ public class Main {
 
         System.out.println("----\n\rSorted in Descending");
         System.out.println(arr);
+
+        System.out.println("----");
+
+        // USING COMPARATORS
+        Collections.sort(arr, new NumComparator());
+        System.out.println("Sort by key");
+        System.out.println(arr);
+
+        Collections.sort(arr, new NameComparator());
+        System.out.println("----\n\rSort by value");
+        System.out.println(arr);
     }
 }

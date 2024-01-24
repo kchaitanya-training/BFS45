@@ -14,5 +14,9 @@ public class Main {
         primeNumbers.add(13);
 
         System.out.println(primeNumbers);
+        System.out.println("----");
+        for (Integer i : primeNumbers) {
+            System.out.println(i);
+        }
     }
 }

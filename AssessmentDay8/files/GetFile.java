@@ -10,4 +10,8 @@ public class GetFile {
     static String filePath() {
         return new File("AssessmentDay8/files/test.txt").getAbsolutePath();
     }
+
+    static String writeFilePath() {
+        return new File("AssessmentDay8/files/writeHere.txt").getAbsolutePath();
+    }
 }

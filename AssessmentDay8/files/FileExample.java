@@ -19,9 +19,13 @@ public class FileExample {
 
     }
 
-    public static void main(String[] args) throws IOException {
-        FileExample m = new FileExample();
-        m.fileDemo();
+    public static void main(String[] args) {
+        try {
+            FileExample m = new FileExample();
+            m.fileDemo();
+        } catch (IOException e) {
+            System.out.println("Caught error: " + e);
+        }
     }
 
 }

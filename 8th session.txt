@@ -1,0 +1,50 @@
+
+Exception
+------------
+
+try{
+
+}catch(Excpeiton e){
+}
+
+
+
+File system  -> if you want write or read the data ,we use filed
+ex : FileInputStream,FileOutStream,BufferReader,BufferWriter,
+
+txt,pdf ,excel
+
+===================================
+
+
+Thread
+--------
+
+
+JDBC
+
+How to import downloaded plugin in eclipse
+
+step1 -> download jar from site
+step 2-> create a folder lib(any nmae) in project  and copy downloaded jars into lib
+
+step 3-> right click on project and select propertis then it will new windo 
+step 4-> after step3, click on Java Build path --> click on libraries--> add select class path 
+
+step 5-> click on Add jar button at right menu --> 
+
+
+
+--------. My SQL database
+
+step 1 --> CREATE SCHEMA IF NOT EXISTS mydb DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+
+ step 2 -> USE mydb ;
+ 
+ step 3-> create table tablename ( column_name1 data-type, col_name2 data type);
+ 
+  ex : crete table test(fname varchar(30),lname varchar(30));
+ 
+ step 4-> insert into table  (col_name1,col_name2..) vlaues(val1,val2...)
+ 
+ ex : insert into test(fname,lname) values('hari','prasad');

@@ -1,13 +1,12 @@
 package AssessmentDay8.files;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class Main {
-    void method() throws IOException {
-        String file = new File("AssessmentDay8/files/test.txt").getAbsolutePath();
+public class FileExample {
+    void fileDemo() throws IOException {
+        String file = GetFile.filePath();
 
         InputStream fileInputStream = new FileInputStream(file);
 
@@ -21,8 +20,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main m = new Main();
-        m.method();
+        FileExample m = new FileExample();
+        m.fileDemo();
     }
 
 }

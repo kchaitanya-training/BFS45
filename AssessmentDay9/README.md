@@ -1,8 +1,10 @@
 # Setup Database Connection
 
-This has been setup with Microsoft Visual Studio Code
+This has been setup with Microsoft Visual Studio Code.
 
-1. Create `.vscode/settings.json`
+Follow these to setup on VS Code.
+
+1. Create `.vscode/settings.json` in root folder
 2. Insert the following in the file
 
 ```json
@@ -13,7 +15,7 @@ This has been setup with Microsoft Visual Studio Code
 }
 ```
 
-> Follow accordingly to your setup and environment
+> For anything else, follow accordingly to your setup and environment
 
 # Database Password
 

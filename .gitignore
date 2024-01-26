@@ -2,6 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,visualstudiocode,macos
 
 writeHere.txt
+databasePassword.txt
 
 ### Java ###
 # Compiled class file
@@ -64,7 +65,7 @@ Temporary Items
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
+# !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json

@@ -66,4 +66,20 @@ public class DatabaseOperations {
             pStatement.execute();
         }
     }
+
+    void updateRecord(int id, String name, String address, float salary) throws SQLException {
+        Statement statement = this.dbConnection.createStatement();
+
+        String sqlQuery = "UPDATE employee SET name='"
+                + name + "', address='" + address + "', salary='" + salary + "'"
+                + "where id=" + id + ";";
+        System.out.println("Executing following QUERY");
+        System.out.println(sqlQuery);
+        ResultSet result = statement.executeQuery(sqlQuery);
+
+        System.out.println("----\n\rListing out all records");
+        this.listRecord();
+
+        result.close();
+    }
 }

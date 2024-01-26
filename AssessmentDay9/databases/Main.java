@@ -22,8 +22,11 @@ public class Main {
             db.connectDB();
 
             db.listRecord();
+
+            db.dbConnection.close();
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
         }
     }
 }

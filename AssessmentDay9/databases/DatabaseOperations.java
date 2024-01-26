@@ -79,15 +79,19 @@ public class DatabaseOperations {
                 + "', address='" + employee.getAddress()
                 + "', salary='" + employee.getSalary()
                 + "'"
-                + "where id=" + employee.getId() + ";";
+                + " where id=" + employee.getId() + ";";
 
         System.out.println("Executing following QUERY");
         System.out.println(sqlQuery);
-        ResultSet result = statement.executeQuery(sqlQuery);
+        int result = statement.executeUpdate(sqlQuery);
+
+        if (result == 1) {
+            System.out.println("----\n\rSuccess");
+        } else {
+            System.out.println("----\n\rFailed");
+        }
 
         System.out.println("----\n\rListing out all records");
         this.listRecord();
-
-        result.close();
     }
 }

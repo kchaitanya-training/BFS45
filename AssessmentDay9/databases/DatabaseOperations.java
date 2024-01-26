@@ -1,12 +1,12 @@
 package AssessmentDay9.databases;
 
+import java.util.List;
+import java.sql.Statement;
+import java.sql.ResultSet;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.List;
 
 public class DatabaseOperations {
     String dbName;
@@ -71,12 +71,16 @@ public class DatabaseOperations {
         }
     }
 
-    void updateRecord(int id, String name, String address, float salary) throws SQLException {
+    void updateRecord(Employee employee) throws SQLException {
         Statement statement = this.dbConnection.createStatement();
 
         String sqlQuery = "UPDATE employee SET name='"
-                + name + "', address='" + address + "', salary='" + salary + "'"
-                + "where id=" + id + ";";
+                + employee.getName()
+                + "', address='" + employee.getAddress()
+                + "', salary='" + employee.getSalary()
+                + "'"
+                + "where id=" + employee.getId() + ";";
+
         System.out.println("Executing following QUERY");
         System.out.println(sqlQuery);
         ResultSet result = statement.executeQuery(sqlQuery);

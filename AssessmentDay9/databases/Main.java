@@ -23,7 +23,7 @@ public class Main {
 
             db.listRecord();
 
-            db.dbConnection.close();
+            db.disconnectDB();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

@@ -28,6 +28,10 @@ public class DatabaseOperations {
                 GetDBPassword.dbPassword()); // DATABASE USER PASSWORD
     }
 
+    void disconnectDB() throws SQLException {
+        this.dbConnection.close();
+    }
+
     void listRecord() throws SQLException {
         Statement statement = this.dbConnection.createStatement();
         ResultSet result = statement.executeQuery("SELECT * FROM employee");

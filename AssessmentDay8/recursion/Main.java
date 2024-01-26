@@ -1,6 +1,6 @@
 package AssessmentDay8.recursion;
 
-public class Main {]
+public class Main {
     int factorial(int num) {
         if (num > 0) {
             return num * factorial(num - 1);

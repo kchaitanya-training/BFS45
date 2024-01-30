@@ -1,0 +1,51 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	      version="2.5">
+
+	<display-name>Welcome to Tomcat</display-name>
+ <!-- 
+ <servlet>
+  <servlet-name>sample</servlet-name>
+  <servlet-class>com.sampleServlet.SampleServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>second</servlet-name>
+  <servlet-class>com.sample.second.SecondServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>httpSample</servlet-name>
+  <servlet-class>com.sample.htttpProtocol.ProtocolSample</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>sample</servlet-name>
+  <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>second</servlet-name>
+  <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>httpSample</servlet-name>
+  <url-pattern>/httpSample</url-pattern>
+  </servlet-mapping>
+  --> 
+  
+  <servlet>
+  <servlet-name>info</servlet-name>
+  <servlet-class>com.sample.htttpProtocol.ProtocolSample</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>info</servlet-name>
+  <url-pattern>/info</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

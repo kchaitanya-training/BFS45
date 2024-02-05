@@ -1,6 +1,0 @@
-com\takeo\bookmanagement\controller\LoginServlet.class
-com\takeo\bookmanagement\dao\UserDao.class
-com\takeo\bookmanagement\service\UserRegisterService.class
-com\takeo\bookmanagement\util\DBUtil.class
-com\takeo\bookmanagement\controller\UserRegisterServlet.class
-com\takeo\bookmanagement\model\User.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Same instance address will be used 
+    <bean class="com.sample.Shape" id="shape">  -->
+    <!--  With scope = prototype, new instance will be create  -->
+    <bean class="com.sample.Shape" id="shape" scope="prototype"> 
+    <constructor-arg name = "radius" value = "5.5f" />
+    <constructor-arg name = "circle" ref = "circle" />
+    </bean>
+    
+    <bean class = "com.sample.Circle" id = "circle">
+    </bean>
+
+</beans>

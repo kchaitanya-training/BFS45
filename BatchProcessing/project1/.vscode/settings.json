@@ -1,0 +1,6 @@
+{
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.project.referencedLibraries": [
+    "/Users/satshree/Projects/takeo/Project1/project1/lib/mysql-connector-j-8.3.0.jar"
+  ]
+}

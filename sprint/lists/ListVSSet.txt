@@ -1,0 +1,5 @@
+A List is an ordered collection of elements that allows duplicate values. 
+It maintains the order in which elements are inserted, and you can access elements by their index.
+-----
+A Set is an unordered collection of unique elements. 
+It does not allow duplicate values, and there is no guarantee of the order in which elements are stored.
